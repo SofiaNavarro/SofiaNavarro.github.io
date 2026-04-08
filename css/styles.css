@@ -10874,29 +10874,13 @@ p.lead {
     background-color: #0b2a4a;
 
     position: fixed;
-    top: 0;
     left: 0;
+    top: 0;
 
     display: flex;
     align-items: center;
     justify-content: center;
 }
-
-.side-nav ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
-
-.side-nav li {
-    margin: 1rem 0;
-}
-
-.side-nav a {
-    color: white;
-    text-decoration: none;
-    font-size: 1rem;
-  }
 }
 .social-icons .social-icon {
   display: inline-flex;
