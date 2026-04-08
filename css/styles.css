@@ -11038,11 +11038,12 @@ section {
 }
 
 /* --- Red flags layout --- */
-.redflags-grid {
+redflags-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-    gap: 1.5rem;
+    grid-template-columns: repeat(2, minmax(420px, 1fr));
+    gap: 2rem;
 }
+
 
 .redflag-box {
     background-color: #ffffff;
