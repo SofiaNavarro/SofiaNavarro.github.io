@@ -10970,3 +10970,19 @@ section.resume-section .resume-section-content {
     padding-bottom: 5rem;
   }
 }
+.redflags-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 1.5rem;
+}
+
+.redflag-box {
+    border: 1px solid #ddd;
+    padding: 1.25rem;
+    background-color: #fafafa;
+    border-radius: 6px;
+}
+
+.redflag-box h3 {
+    margin-top: 0;
+}
