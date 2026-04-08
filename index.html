@@ -58,8 +58,47 @@
   h2 {
       margin-bottom: 1.5rem;
   }
+
+        body {
+    margin: 0;
+    display: flex;
+}
+
+/* Menu-bar til venstre */
+.side-nav {
+    width: 240px;
+    background-color: #0b2a4a;
+    min-height: 100vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.side-nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.side-nav li {
+    margin: 1rem 0;
+}
+
+.side-nav a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Indhold til højre */
+.page-content {
+    flex: 1;
+    padding: 4rem 3rem;
+    background-color: #f8fafc;
+}
 </style>
 
+    
 </head>
 
 <body>
@@ -68,33 +107,18 @@
     <div class="row">
 
         <!-- Navigation -->
-        <nav class="col-md-3 col-lg-2 d-md-block bg-light sidebar p-3">
-            <ul class="nav flex-column">
-                <li class="nav-item">
-                    <a class="nav-link" href="#redflags">
-                        Røde flag
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#forskning">
-                        Sproglig forskning i online grooming
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#ommig">
-                        Om mig
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#publikationer">
-                        Publikationer
-                    </a>
-                </li>
-            </ul>
-        </nav>
+        
+<nav class="side-nav">
+    <ul>
+        <li><a href="#redflags">Røde flag</a></li>
+        <li><a href="#forskning">Sproglig forskning</a></li>
+        <li><a href="#ommig">Om mig</a></li>
+        <li><a href="#publikationer">Publikationer</a></li>
+    </ul>
+</nav>
 
         <!-- Content -->
-        <main class="col-md-9 col-lg-10">
+        <main class="col-md-9 col-lg-10 page-content">
 
             <section id="redflags">
     <h2>Røde flag til at spotte online grooming dynamikker</h2>
