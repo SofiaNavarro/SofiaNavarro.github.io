@@ -10986,3 +10986,76 @@ section.resume-section .resume-section-content {
 .redflag-box h3 {
     margin-top: 0;
 }
+
+/* --- Base typography --- */
+body {
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 1.05rem;
+    line-height: 1.7;
+    color: #0f172a;
+    background-color: #f8fafc;
+}
+
+h1, h2, h3 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 600;
+    color: #0b1f3a;
+}
+
+h2 {
+    margin-bottom: 1.5rem;
+}
+
+h3 {
+    font-size: 1.1rem;
+    margin-top: 0;
+}
+
+/* --- Dark blue theme --- */
+:root {
+    --primary-blue: #0b2a4a;
+}
+
+nav,
+.navbar,
+.sidebar {
+    background-color: var(--primary-blue);
+}
+
+nav a,
+.navbar a {
+    color: #ffffff;
+}
+
+nav a:hover {
+    opacity: 0.85;
+}
+
+/* --- Sections --- */
+section {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+/* --- Red flags layout --- */
+.redflags-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 1.5rem;
+}
+
+.redflag-box {
+    background-color: #ffffff;
+    border: 1px solid #e2e8f0;
+    border-left: 4px solid var(--primary-blue);
+    padding: 1.25rem 1.4rem;
+    border-radius: 6px;
+}
+
+.redflag-box ul {
+    padding-left: 1.2rem;
+}
+
+.redflag-box li {
+    margin-bottom: 0.4rem;
+}
