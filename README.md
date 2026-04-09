@@ -1,2 +1,0 @@
-# Sofia Navarro Beck
-
