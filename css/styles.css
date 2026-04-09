@@ -10992,22 +10992,22 @@ section.resume-section .resume-section-content {
   --bs-link-hover-color: #0f192f;
 }
 /* Reduce spacing between sections */
-.resume-section {
+section.resume-section {
     padding-top: 2rem !important;
     padding-bottom: 2rem !important;
 }
 
-.resume-section-content {
-    padding-top: 0rem !important;
-    padding-bottom: 0rem !important;
+/* Remove extra padding injected by the template */
+#page-top {
+    padding-bottom: 0 !important;
 }
 
 /* Reduce spacing under headings */
-.resume-section h2 {
+section.resume-section h2 {
     margin-bottom: 1.5rem !important;
 }
 
-/* Reduce spacing under content rows */
-.resume-section .mb-5 {
-    margin-bottom: 1rem !important;
+/* Reduce spacing under content blocks */
+section.resume-section .mb-5 {
+    margin-bottom: 1.25rem !important;
 }
