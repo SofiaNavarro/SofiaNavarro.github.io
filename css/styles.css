@@ -10980,7 +10980,8 @@ section.resume-section .resume-section-content {
     border: 1px solid #ddd;
     padding: 1.25rem;
     border-radius: 6px;
-    background-color: #fafafa;
+    background: linear-gradient(135deg, #ffffff, #f2f7ff);
+    background-color: #ffe1d6;
 }
 
 .redflag-box h3 {
