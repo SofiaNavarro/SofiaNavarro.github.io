@@ -11000,4 +11000,27 @@ section {
 body {
     font-family: 'Lora', serif !important;
 }
+h1 {
+  font-size: 1.8rem;  /* mindre end standard */
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
+h3 {
+  font-size: 1.3rem;
+}
+
+h4 {
+  font-size: 1.1rem;
+}
+
+h5 {
+  font-size: 1rem;
+}
+
+h6 {
+  font-size: 0.9rem;
+}
 
