@@ -11011,3 +11011,9 @@ section.resume-section h2 {
 section.resume-section .mb-5 {
     margin-bottom: 1.25rem !important;
 }
+body section.resume-section {
+    padding: 1.5rem 0 !important;
+}
+body section.resume-section .resume-section-content {
+    padding: 0 !important;
+}
