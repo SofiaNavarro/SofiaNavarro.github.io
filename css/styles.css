@@ -11024,3 +11024,7 @@ h6 {
   font-size: 0.9rem;
 }
 
+.subheading {
+  font-size: 1.1rem;   /* prøv 1.0, 0.9 eller 0.8 rem hvis du vil have den mindre */
+}
+
