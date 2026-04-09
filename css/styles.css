@@ -10991,3 +10991,18 @@ section.resume-section .resume-section-content {
   --bs-link-color: #14213d;
   --bs-link-hover-color: #0f192f;
 }
+/* Reduce spacing between resume sections */
+.resume-section {
+    padding-top: 2rem !important;
+    padding-bottom: 2rem !important;
+}
+
+/* Reduce spacing under H2 headings */
+.resume-section h2 {
+    margin-bottom: 1.5rem !important;
+}
+
+/* Reduce spacing under content blocks */
+.resume-section .mb-5 {
+    margin-bottom: 1.5rem !important;
+}
