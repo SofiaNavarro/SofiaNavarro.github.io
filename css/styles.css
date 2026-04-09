@@ -10986,3 +10986,8 @@ section.resume-section .resume-section-content {
 .redflag-box h3 {
     margin-top: 0;
 }
+
+:root {
+    --bs-primary: #0d6efd;
+}
+
